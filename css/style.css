@@ -99,6 +99,18 @@ main #semaine img {
     margin: 1rem;
 }
 
+#galerie img {
+    width: 100%;
+    height: auto;
+}
+
+#principale {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
 main #contact {
   background: #003971;
 }
